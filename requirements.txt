@@ -1,0 +1,13 @@
+# Requirements for Video Search and Upload Bot
+
+# Async operations
+asyncio
+
+aiohttp  # HTTP requests
+aiofiles # Async file operations
+
+# Progress bar
+
+tqdm
+
+# Additional dependencies, if any, can be included
