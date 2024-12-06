@@ -48,10 +48,11 @@ The bot automates the process of:
    pip install -r requirements.txt
    ```
 
-3. Set up the `/videos` directory:
-   ```bash
-   mkdir videos
-   ```
+3. Create the `/videos` directory:
+   - Run the following command to create the directory manually:
+     ```bash
+     mkdir videos
+     ```
 
 4. Update the `Flic-Token`:
    - Replace the `<YOUR_TOKEN>` placeholder in the `HEADERS` dictionary inside `main.py` with your token.
@@ -117,5 +118,3 @@ Video-Search-and-Upload-Bot/
 The bot automatically deletes processed `.mp4` files from the `/videos` directory after a successful upload.
 
 ---
-
-
